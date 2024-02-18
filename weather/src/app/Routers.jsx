@@ -7,6 +7,9 @@ const WeatherPage = () => {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<MainPage />} />
+                <Route path="/contacts" element={<ContactPage/>} />
+                <Route path="/weather" element={<WeatherPage/>} />
+                <Route path="*" element={<NonePage/>} />
             </Routes>
         </BrowserRouter>
     );

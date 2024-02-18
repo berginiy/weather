@@ -1,11 +1,18 @@
 import React from 'react';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
-const ContactPage = () => {
+const WeatherPage = () => {
     return (
         <div>
-            <h1>Hello, World!</h1>
+            <Header>
+                <main>
+                    Контактная Страница
+                </main>
+            </Header>
+            <Footer />
         </div>
     );
 };
 
-export default ContactPage;
+export default WeatherPage;

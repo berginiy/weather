@@ -1,9 +1,16 @@
 import React from 'react';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const WeatherPage = () => {
     return (
         <div>
-            <h1>Hello, World!</h1>
+            <Header>
+                <main>
+                    Страница погоды
+                </main>
+            </Header>
+            <Footer />
         </div>
     );
 };

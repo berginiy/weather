@@ -3,9 +3,9 @@ import Routers from "@/app/Routers.jsx"
 function App() {
 
   return (
-    <>
-        <Routers></Routers>
-    </>
+    <div className="container">
+      <Routers/>
+    </div>
   )
 }
 
