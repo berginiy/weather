@@ -1,10 +1,16 @@
-import Routers from "@/app/Routers.jsx"
+import React from "react"
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import MainPage from "./pages/MainPage";
 
 function App() {
 
   return (
     <div className="container">
-      <Routers/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<MainPage/>} />
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }

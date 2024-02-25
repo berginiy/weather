@@ -4,12 +4,8 @@ import Footer from '../components/Footer';
 
 const MainPage = () => {
     return (
-        <div>
-            <Header>
-                <main>
-                    Главная Страница
-                </main>
-            </Header>
+        <div className="main-page-container">
+            <Header />
             <Footer />
         </div>
     );
