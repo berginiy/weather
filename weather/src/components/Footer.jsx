@@ -5,15 +5,15 @@ export default function Footer() {
     <footer className='footer'>
       <div className='footer-content'>
         <div className="rule-of-game">
-          <h3>Rule of the game:</h3>
+          <h3>Правила игры:</h3>
           <ul>
-            <li>0 HP heh you die</li>
-            <li>you should play by your role</li>
-            <li>dont try break site plz</li>
+            <li>Если HP достигает 0, вы умираете</li>
+            <li>Вы должны играть свою роль</li>
+            <li>Пожалуйста, не пытайтесь сломать сайт</li>
           </ul>
         </div>
         <div className='social-links'>
-          <h2>Social</h2>
+          <h2>Социальные сети</h2>
           <ul className="social">
             <li><Link className='link' to="https://www.facebook.com/dungeonsanddragons/">Facebook</Link></li>
             <li><Link className='link' to="https://www.instagram.com/dndwizards/?hl=en">Instagram</Link></li>
