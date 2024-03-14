@@ -4,9 +4,22 @@ body {
     font-family: Arial, sans-serif;
 }
 
+<<<<<<< HEAD
 .wrapper {
     display: flex;
     justify-content: space-around;
+=======
+.header-inner {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 0 15px;
+    margin: 0 auto;
+>>>>>>> 177440a2fab841b9071bed85a38584ec1fb88dc3
 }
 
 .container {
@@ -35,12 +48,6 @@ body {
     background-color: #fff;
     color: #333333;
     padding: 10px;
-}
-
-.header_inner {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
 }
 
 .nav {
@@ -213,7 +220,12 @@ p {
 
 .exam-list {
     width: 48%;
+<<<<<<< HEAD
     margin-bottom: 90px;
+=======
+    /* Adjust the width as needed */
+    margin-bottom: 30px;
+>>>>>>> 177440a2fab841b9071bed85a38584ec1fb88dc3
 }
 
 .img-exam {
@@ -234,9 +246,12 @@ p {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 10px;
     border-radius: 5px;
+<<<<<<< HEAD
     bottom: unset;
     top: calc(100% + 10px);
     left: 0;
+=======
+>>>>>>> 177440a2fab841b9071bed85a38584ec1fb88dc3
 }
 
 .exam-ul h3 {

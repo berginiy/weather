@@ -43,6 +43,7 @@ const HomePage = ({ user }) => {
                                     <li>Sed viverra in nulla duis elit purus urna. </li>
                                 </ul>
                             </div>
+<<<<<<< HEAD
                         </div>
                     </div>
                     {/* Exam 4 */}
@@ -54,6 +55,8 @@ const HomePage = ({ user }) => {
                             <ul>
                                 <li>Sed viverra in nulla duis elit purus urna. </li>
                             </ul>
+=======
+>>>>>>> 177440a2fab841b9071bed85a38584ec1fb88dc3
                         </div>
                     </div>
                 </div>
