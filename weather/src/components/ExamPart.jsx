@@ -1,56 +1,47 @@
 import React from 'react';
 import ret from '../img/ret.jpg';
 
-
 const HomePage = ({ user }) => {
     return (
-        <div class="Exam">
-            <div class="container">
-                <div class="post_head">
+        <div className="exam-container">
+            <div className="container">
+                <div className="post_head">
                     <h2>Экзамены</h2>
                 </div>
                 <div className='flex-exam'>
-                    <div className='ecam-list'>
+                    {/* Exam 1 */}
+                    <div className='exam-list'>
                         <div className='img-exam'>
-                            <img src={ret} style={{ maxWidth: '100%', width: '300px', height: 'auto' }} />
+                            <img src={ret} alt="Exam 1" />
                             <div className='exam-ul'>
                                 <h3>Massa fringilla rhoncus purus gravida magnis. </h3>
-                                <li>
-                                    <ul>Sed viverra in nulla duis elit purus urna. </ul>
-                                </li>
+                                <ul>
+                                    <li>Sed viverra in nulla duis elit purus urna. </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <div className='ecam-list'>
+                    {/* Exam 2 */}
+                    <div className='exam-list'>
                         <div className='img-exam'>
-                            <img src={ret} style={{ maxWidth: '100%', width: '300px', height: 'auto' }} />
+                            <img src={ret} alt="Exam 2" />
                             <div className='exam-ul'>
                                 <h3>Massa fringilla rhoncus purus gravida magnis. </h3>
-                                <li>
-                                    <ul>Sed viverra in nulla duis elit purus urna. </ul>
-                                </li>
+                                <ul>
+                                    <li>Sed viverra in nulla duis elit purus urna. </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <div className='ecam-list'>
+                    {/* Exam 3 */}
+                    <div className='exam-list'>
                         <div className='img-exam'>
-                            <img src={ret} style={{ maxWidth: '100%', width: '300px', height: 'auto' }} />
+                            <img src={ret} alt="Exam 3" />
                             <div className='exam-ul'>
                                 <h3>Massa fringilla rhoncus purus gravida magnis. </h3>
-                                <li>
-                                    <ul>Sed viverra in nulla duis elit purus urna. </ul>
-                                </li>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='ecam-list'>
-                        <div className='img-exam'>
-                            <img src={ret} style={{ maxWidth: '100%', width: '300px', height: 'auto' }} />
-                            <div className='exam-ul'>
-                                <h3>Massa fringilla rhoncus purus gravida magnis. </h3>
-                                <li>
-                                    <ul>Sed viverra in nulla duis elit purus urna. </ul>
-                                </li>
+                                <ul>
+                                    <li>Sed viverra in nulla duis elit purus urna. </li>
+                                </ul>
                             </div>
                         </div>
                     </div>

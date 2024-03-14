@@ -4,6 +4,12 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.header-inner {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
 .container {
     max-width: 1280px;
     padding: 0 15px;
@@ -28,12 +34,6 @@ body {
     background-color: #fff;
     color: #333333;
     padding: 10px;
-}
-
-.header_inner {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
 }
 
 .nav {
@@ -172,6 +172,71 @@ p {
     line-height: 140%;
     width: 526px;
     text-align: left;
+}
+
+.exam-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.post_head {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.flex-exam {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.exam-list {
+    width: 48%;
+    /* Adjust the width as needed */
+    margin-bottom: 30px;
+}
+
+.img-exam {
+    position: relative;
+}
+
+.img-exam img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.exam-ul {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.exam-ul h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.exam-ul ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.exam-ul ul li {
+    font-size: 14px;
+    color: #666;
 }
 
 .post_head {
