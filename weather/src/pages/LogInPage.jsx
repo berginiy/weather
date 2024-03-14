@@ -1,8 +1,10 @@
 import LogIn from '../components/LogIn';
+import Header from '../components/Header';
 
-export default function LogIn() {
+export default function LogInPage() {
     return (
         <div className='wrapper'>
+            <Header />
             <LogIn />
         </div>
     )
