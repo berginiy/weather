@@ -43,26 +43,23 @@ const HomePage = ({ user }) => {
                                     <li>Sed viverra in nulla duis elit purus urna. </li>
                                 </ul>
                             </div>
-<<<<<<< HEAD
                         </div>
                     </div>
                     {/* Exam 4 */}
                     <div className='exam-list'>
-                    <div className='img-exam'>
-                        <img src={ret} alt="Exam 3" />
-                        <div className='exam-ul'>
-                            <h3>Massa fringilla rhoncus purus gravida magnis. </h3>
-                            <ul>
-                                <li>Sed viverra in nulla duis elit purus urna. </li>
-                            </ul>
-=======
->>>>>>> 177440a2fab841b9071bed85a38584ec1fb88dc3
+                        <div className='img-exam'>
+                            <img src={ret} alt="Exam 4" />
+                            <div className='exam-ul'>
+                                <h3>Massa fringilla rhoncus purus gravida magnis. </h3>
+                                <ul>
+                                    <li>Sed viverra in nulla duis elit purus urna. </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        </div >
     );
 }
 

@@ -1,10 +1,6 @@
-<<<<<<< HEAD
 import React, { useState } from 'react';
-import axios from 'axios'; // импортируем axios
-import { useNavigate } from 'react-router-dom'; // импортируем useNavigate
-=======
-import React from 'react';
->>>>>>> 177440a2fab841b9071bed85a38584ec1fb88dc3
+import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 export default function LogIn() {
     const [username, setUsername] = useState('');
@@ -32,8 +28,6 @@ export default function LogIn() {
             localStorage.setItem('refresh_token', response.data.refresh);
             localStorage.setItem('user_id', response.data.user_id);
 
-            // setUser(true); // если не используете UserContext, удалите эту строку
-
             navigate('/');
         } catch (error) {
             if (error.response) {
@@ -51,7 +45,6 @@ export default function LogIn() {
     }
 
     return (
-<<<<<<< HEAD
         <div className="back">
             <div className="login">
                 <form onSubmit={sendForm} method="post">
@@ -64,16 +57,15 @@ export default function LogIn() {
                     <button onClick={back} className='op_next'>Back</button>
                 </form>
             </div>
-=======
-        <div className='wrapper'>
-            <a class="link" >O нас</a>
-            <a class="link" >Специалисты</a>
-            <a class="link" >Расписание</a>
-            <a class="link" >Мероприятия</a>
-            <a class="link" >Экзамены</a>
-            <a class="link" >Обучение в испании</a>
-            <a class="link">Новости</a>
->>>>>>> 177440a2fab841b9071bed85a38584ec1fb88dc3
+            <div className='wrapper'>
+                <a class="link" >O нас</a>
+                <a class="link" >Специалисты</a>
+                <a class="link" >Расписание</a>
+                <a class="link" >Мероприятия</a>
+                <a class="link" >Экзамены</a>
+                <a class="link" >Обучение в испании</a>
+                <a class="link">Новости</a>
+            </div>
         </div>
     );
 }
